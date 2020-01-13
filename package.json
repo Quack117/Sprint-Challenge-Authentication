@@ -32,5 +32,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "jest": {
+    "testEnvironment": "node"
+
+  },
+  "test": "cross-env DB_ENV=testing jest --watch"
+  
 }
